@@ -1,0 +1,26 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+<f:section name="content">
+    <div class="container mx-auto my-12">
+
+        <f:link.action action="show" controller="Event" arguments="{event : event}" class="inline-block text-sm mb-12 underline hover:no-underline text-green-600">
+            {f:translate(key: 'templates.booking.new.backLink', arguments: {0: event.title})}
+        </f:link.action>
+
+        <h1 class="text-2xl mb-2">
+            {f:translate(key: 'templates.booking.new.heading')}
+        </h1>
+
+        <f:flashMessages />
+
+        <f:render partial="FormErrors" />
+
+        <f:form action="create" enctype="multipart/form-data" name="newBooking" object="{newBooking}">
+            <f:render partial="Booking/FormFields" arguments="{_all}"/>
+            <f:form.submit value="{f:translate(key: 'templates.event.show.bookButtonText')}" class="mt-4 inline-flex items-center justify-center px-3 py-2 border border-transparent font-medium text-white bg-green-600 hover:bg-green-700 cursor-pointer"/>
+        </f:form>
+
+    </div>
+</f:section>
+</html>

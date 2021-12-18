@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:co_eventbooking/Resources/Private/Language/locallang" date="2021-12-18T20:10:08Z" product-name="co_eventbooking">
+		<header/>
+		<body>
+			<trans-unit id="tx_coeventbooking_domain_model_event" resname="tx_coeventbooking_domain_model_event">
+				<source>Event</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.title" resname="tx_coeventbooking_domain_model_event.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.description" resname="tx_coeventbooking_domain_model_event.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.date" resname="tx_coeventbooking_domain_model_event.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.ticket_amount" resname="tx_coeventbooking_domain_model_event.ticket_amount">
+				<source>Ticket Amount</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.image" resname="tx_coeventbooking_domain_model_event.image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.slug" resname="tx_coeventbooking_domain_model_event.slug">
+				<source>Slug</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.place" resname="tx_coeventbooking_domain_model_event.place">
+				<source>Place</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_event.speaker" resname="tx_coeventbooking_domain_model_event.speaker">
+				<source>Speaker</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_place" resname="tx_coeventbooking_domain_model_place">
+				<source>Place</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_place.name" resname="tx_coeventbooking_domain_model_place.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_place.address" resname="tx_coeventbooking_domain_model_place.address">
+				<source>Address</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_speaker" resname="tx_coeventbooking_domain_model_speaker">
+				<source>Speaker</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_speaker.name" resname="tx_coeventbooking_domain_model_speaker.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_speaker.phone" resname="tx_coeventbooking_domain_model_speaker.phone">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking" resname="tx_coeventbooking_domain_model_booking">
+				<source>Booking</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.number" resname="tx_coeventbooking_domain_model_booking.number">
+				<source>Number</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.gender" resname="tx_coeventbooking_domain_model_booking.gender">
+				<source>Gender</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.first_name" resname="tx_coeventbooking_domain_model_booking.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.last_name" resname="tx_coeventbooking_domain_model_booking.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.email" resname="tx_coeventbooking_domain_model_booking.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.dsgvo" resname="tx_coeventbooking_domain_model_booking.dsgvo">
+				<source>Dsgvo</source>
+			</trans-unit>
+			<trans-unit id="tx_coeventbooking_domain_model_booking.event" resname="tx_coeventbooking_domain_model_booking.event">
+				<source>Event</source>
+			</trans-unit>
+			<trans-unit id="templates.event.list.heading" resname="templates.event.list.heading">
+				<source>List of events</source>
+			</trans-unit>
+			<trans-unit id="templates.event.list.noEventsFound" resname="templates.event.list.noEventsFound">
+				<source>No events found :(</source>
+			</trans-unit>
+			<trans-unit id="templates.event.show.backLink" resname="templates.event.show.backLink">
+				<source>Back to event list</source>
+			</trans-unit>
+			<trans-unit id="templates.event.show.date" resname="templates.event.show.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="templates.event.show.bookButtonText" resname="templates.event.show.bookButtonText">
+				<source>Book event</source>
+			</trans-unit>
+			<trans-unit id="templates.event.show.noTickets" resname="templates.event.show.noTickets">
+				<source>Sorry, no tickets left.</source>
+			</trans-unit>
+			<trans-unit id="templates.event.show.event.description" resname="templates.event.show.event.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="templates.event.show.event.place" resname="templates.event.show.event.place">
+				<source>Place</source>
+			</trans-unit>
+			<trans-unit id="templates.event.show.event.speaker" resname="templates.event.show.event.speaker">
+				<source>Speaker</source>
+			</trans-unit>
+			<trans-unit id="templates.booking.new.backLink" resname="templates.booking.new.backLink">
+				<source>Back to %s description</source>
+			</trans-unit>
+			<trans-unit id="templates.booking.new.heading" resname="templates.booking.new.heading">
+				<source>New Booking</source>
+			</trans-unit>
+			<trans-unit id="templates.booking.success.heading" resname="templates.booking.success.heading">
+				<source>Congratulations</source>
+			</trans-unit>
+			<trans-unit id="templates.booking.success.text" resname="templates.booking.success.text">
+				<source>You have successfully booked the event</source>
+			</trans-unit>
+			<trans-unit id="templates.booking.success.backLink" resname="templates.booking.success.backLink">
+				<source>Go Back to list of events</source>
+			</trans-unit>
+			<trans-unit id="booking_create.success" resname="booking_create.success">
+				<source>You have successfully booked the event.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,18 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+<f:section name="content">
+    <div class="container mx-auto my-12">
+        <h2 class="font-bold text-xl">
+            {f:translate(key: 'templates.booking.success.heading')}
+        </h2>
+       
+        <f:flashMessages />
+        
+        <f:link.action action="list" controller="Event" class="inline-block text-sm mb-12 underline hover:no-underline text-green-600">
+            {f:translate(key: 'templates.booking.success.backLink')}
+        </f:link.action>
+    </div>
+</f:section>
+
+</html>
